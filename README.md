@@ -5,6 +5,7 @@ Identify flashloan bots in multiple chains, for "academic research" purposes.
 # Usage
 
 1.  Enter your Etherscan / Polygonscan / etc API key in the API_KEY variable.
+2.  Update CURRENT_BLOCK_NUM field to the current block.number
 2.  (optional) Update the BLOCK_NUM_3_YRS_AGO field to your desired start block number for the search
 3.  (optional) On L2s, choose the desired flash event in FLASH_EVENTS array
 4.  Run get_flashbot_addr.py
